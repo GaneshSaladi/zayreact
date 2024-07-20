@@ -1,0 +1,79 @@
+/*
+Custom Css
+*/
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #212934;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #212934;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    height: 35px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #59ab6e;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #4e965f;
+}
+
+.link {
+    text-align: center;
+    color: #212934;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #59ab6e;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
